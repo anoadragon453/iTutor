@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49259BAE16FA6F3200B8A8A8 /* TableStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49259BAD16FA6F3200B8A8A8 /* TableStudentViewController.m */; };
+		499720691710F92900F17233 /* MainMasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499720681710F92900F17233 /* MainMasterDetailViewController.m */; };
+		49B0518C16E80E9900DD0E74 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0518B16E80E9900DD0E74 /* LogInViewController.m */; };
+		49B6B34416F01B6C00CF108A /* NewPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6B34316F01B6C00CF108A /* NewPassViewController.m */; };
 		49BA987D16E7F482000CF187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BA987C16E7F482000CF187 /* UIKit.framework */; };
 		49BA987F16E7F482000CF187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BA987E16E7F482000CF187 /* Foundation.framework */; };
 		49BA988116E7F482000CF187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BA988016E7F482000CF187 /* CoreGraphics.framework */; };
@@ -19,9 +23,26 @@
 		49BA989616E7F482000CF187 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BA989416E7F482000CF187 /* MainStoryboard_iPhone.storyboard */; };
 		49BA989916E7F482000CF187 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BA989716E7F482000CF187 /* MainStoryboard_iPad.storyboard */; };
 		49BA989C16E7F482000CF187 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA989B16E7F482000CF187 /* ViewController.m */; };
+		49FE787A16F90C4700A9EF6D /* StudentSelectSubjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FE787916F90C4700A9EF6D /* StudentSelectSubjectsViewController.m */; };
+		844167331704F52B0037127E /* error.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 844167321704F52B0037127E /* error.jpg */; };
+		8483959317024D1B0025BBA8 /* subjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8483959217024D1B0025BBA8 /* subjects.plist */; };
+		84FAABB21702586A0046E5DF /* StudentInfoEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FAABB11702586A0046E5DF /* StudentInfoEntryViewController.m */; };
+		84FAABB51702587E0046E5DF /* TutorInfoEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FAABB41702587E0046E5DF /* TutorInfoEntryViewController.m */; };
+		84FAABB81702776D0046E5DF /* TutorSelectSubjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FAABB71702776D0046E5DF /* TutorSelectSubjectsViewController.m */; };
+		84FAABBB170283500046E5DF /* FinishedRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FAABBA1702834F0046E5DF /* FinishedRegistrationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49259BAC16FA6F3200B8A8A8 /* TableStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableStudentViewController.h; sourceTree = "<group>"; };
+		49259BAD16FA6F3200B8A8A8 /* TableStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableStudentViewController.m; sourceTree = "<group>"; };
+		499720671710F92900F17233 /* MainMasterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMasterDetailViewController.h; path = ../MainMasterDetailViewController.h; sourceTree = "<group>"; };
+		499720681710F92900F17233 /* MainMasterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMasterDetailViewController.m; path = ../MainMasterDetailViewController.m; sourceTree = "<group>"; };
+		49B0518A16E80E9900DD0E74 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		49B0518B16E80E9900DD0E74 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		49B0518E16E80F8500DD0E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/Register1ViewController.h; sourceTree = "<group>"; };
+		49B0519016E80F8500DD0E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/Register1ViewController.m; sourceTree = "<group>"; };
+		49B6B34216F01B6C00CF108A /* NewPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPassViewController.h; sourceTree = "<group>"; };
+		49B6B34316F01B6C00CF108A /* NewPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPassViewController.m; sourceTree = "<group>"; };
 		49BA987916E7F482000CF187 /* iTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BA987C16E7F482000CF187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49BA987E16E7F482000CF187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +60,18 @@
 		49BA989816E7F482000CF187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		49BA989A16E7F482000CF187 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49BA989B16E7F482000CF187 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49FE787816F90C4700A9EF6D /* StudentSelectSubjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentSelectSubjectsViewController.h; sourceTree = "<group>"; };
+		49FE787916F90C4700A9EF6D /* StudentSelectSubjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentSelectSubjectsViewController.m; sourceTree = "<group>"; };
+		844167321704F52B0037127E /* error.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = error.jpg; sourceTree = "<group>"; };
+		8483959217024D1B0025BBA8 /* subjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = subjects.plist; sourceTree = "<group>"; };
+		84FAABB01702586A0046E5DF /* StudentInfoEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentInfoEntryViewController.h; sourceTree = "<group>"; };
+		84FAABB11702586A0046E5DF /* StudentInfoEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentInfoEntryViewController.m; sourceTree = "<group>"; };
+		84FAABB31702587E0046E5DF /* TutorInfoEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorInfoEntryViewController.h; sourceTree = "<group>"; };
+		84FAABB41702587E0046E5DF /* TutorInfoEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorInfoEntryViewController.m; sourceTree = "<group>"; };
+		84FAABB61702776D0046E5DF /* TutorSelectSubjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorSelectSubjectsViewController.h; sourceTree = "<group>"; };
+		84FAABB71702776D0046E5DF /* TutorSelectSubjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorSelectSubjectsViewController.m; sourceTree = "<group>"; };
+		84FAABB91702834F0046E5DF /* FinishedRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishedRegistrationViewController.h; sourceTree = "<group>"; };
+		84FAABBA1702834F0046E5DF /* FinishedRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishedRegistrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +122,26 @@
 				49BA988C16E7F482000CF187 /* AppDelegate.m */,
 				49BA989416E7F482000CF187 /* MainStoryboard_iPhone.storyboard */,
 				49BA989716E7F482000CF187 /* MainStoryboard_iPad.storyboard */,
+				84FAABB01702586A0046E5DF /* StudentInfoEntryViewController.h */,
+				84FAABB11702586A0046E5DF /* StudentInfoEntryViewController.m */,
+				84FAABB31702587E0046E5DF /* TutorInfoEntryViewController.h */,
+				84FAABB41702587E0046E5DF /* TutorInfoEntryViewController.m */,
+				49259BAC16FA6F3200B8A8A8 /* TableStudentViewController.h */,
+				49259BAD16FA6F3200B8A8A8 /* TableStudentViewController.m */,
+				499720671710F92900F17233 /* MainMasterDetailViewController.h */,
+				499720681710F92900F17233 /* MainMasterDetailViewController.m */,
+				49FE787816F90C4700A9EF6D /* StudentSelectSubjectsViewController.h */,
+				49FE787916F90C4700A9EF6D /* StudentSelectSubjectsViewController.m */,
+				84FAABBA1702834F0046E5DF /* FinishedRegistrationViewController.m */,
+				84FAABB61702776D0046E5DF /* TutorSelectSubjectsViewController.h */,
+				84FAABB71702776D0046E5DF /* TutorSelectSubjectsViewController.m */,
+				49B6B34216F01B6C00CF108A /* NewPassViewController.h */,
+				49B6B34316F01B6C00CF108A /* NewPassViewController.m */,
+				49B0518A16E80E9900DD0E74 /* LogInViewController.h */,
+				49B0518B16E80E9900DD0E74 /* LogInViewController.m */,
+				84FAABB91702834F0046E5DF /* FinishedRegistrationViewController.h */,
+				49B0518D16E80F8500DD0E74 /* Register1ViewController.h */,
+				49B0518F16E80F8500DD0E74 /* Register1ViewController.m */,
 				49BA989A16E7F482000CF187 /* ViewController.h */,
 				49BA989B16E7F482000CF187 /* ViewController.m */,
 				49BA988316E7F482000CF187 /* Supporting Files */,
@@ -99,7 +152,9 @@
 		49BA988316E7F482000CF187 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				844167321704F52B0037127E /* error.jpg */,
 				49BA988416E7F482000CF187 /* iTutor-Info.plist */,
+				8483959217024D1B0025BBA8 /* subjects.plist */,
 				49BA988516E7F482000CF187 /* InfoPlist.strings */,
 				49BA988816E7F482000CF187 /* main.m */,
 				49BA988A16E7F482000CF187 /* iTutor-Prefix.pch */,
@@ -167,6 +222,8 @@
 				49BA989316E7F482000CF187 /* Default-568h@2x.png in Resources */,
 				49BA989616E7F482000CF187 /* MainStoryboard_iPhone.storyboard in Resources */,
 				49BA989916E7F482000CF187 /* MainStoryboard_iPad.storyboard in Resources */,
+				8483959317024D1B0025BBA8 /* subjects.plist in Resources */,
+				844167331704F52B0037127E /* error.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,12 +237,37 @@
 				49BA988916E7F482000CF187 /* main.m in Sources */,
 				49BA988D16E7F482000CF187 /* AppDelegate.m in Sources */,
 				49BA989C16E7F482000CF187 /* ViewController.m in Sources */,
+				49B0518C16E80E9900DD0E74 /* LogInViewController.m in Sources */,
+				49B6B34416F01B6C00CF108A /* NewPassViewController.m in Sources */,
+				49FE787A16F90C4700A9EF6D /* StudentSelectSubjectsViewController.m in Sources */,
+				49259BAE16FA6F3200B8A8A8 /* TableStudentViewController.m in Sources */,
+				84FAABB21702586A0046E5DF /* StudentInfoEntryViewController.m in Sources */,
+				84FAABB51702587E0046E5DF /* TutorInfoEntryViewController.m in Sources */,
+				84FAABB81702776D0046E5DF /* TutorSelectSubjectsViewController.m in Sources */,
+				84FAABBB170283500046E5DF /* FinishedRegistrationViewController.m in Sources */,
+				499720691710F92900F17233 /* MainMasterDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		49B0518D16E80F8500DD0E74 /* Register1ViewController.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B0518E16E80F8500DD0E74 /* en */,
+			);
+			name = Register1ViewController.h;
+			sourceTree = "<group>";
+		};
+		49B0518F16E80F8500DD0E74 /* Register1ViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B0519016E80F8500DD0E74 /* en */,
+			);
+			name = Register1ViewController.m;
+			sourceTree = "<group>";
+		};
 		49BA988516E7F482000CF187 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,7 +359,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTutor/iTutor-Prefix.pch";
 				INFOPLIST_FILE = "iTutor/iTutor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -288,7 +372,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTutor/iTutor-Prefix.pch";
 				INFOPLIST_FILE = "iTutor/iTutor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +398,7 @@
 				49BA98A116E7F482000CF187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

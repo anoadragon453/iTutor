@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Foreign Language</key>
+	<array>
+		<string>Mandarin</string>
+		<string>Spanish</string>
+		<string>French</string>
+	</array>
+	<key>Mathematics</key>
+	<array>
+		<string>Algebra 1</string>
+		<string>Geometry</string>
+		<string>Algebra 2</string>
+		<string>Pre-Calculus</string>
+		<string>Calculus</string>
+		<string>Trigonometry</string>
+	</array>
+	<key>English</key>
+	<array>
+		<string>English</string>
+	</array>
+	<key>Science</key>
+	<array>
+		<string>Biology</string>
+		<string>Chemistry</string>
+		<string>Physics</string>
+		<string>Earth Science</string>
+	</array>
+	<key>History</key>
+	<array>
+		<string>World History</string>
+		<string>Euro History</string>
+		<string>US History</string>
+	</array>
+</dict>
+</plist>

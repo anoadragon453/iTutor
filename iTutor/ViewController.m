@@ -2,7 +2,7 @@
 //  ViewController.m
 //  iTutor
 //
-//  Created by Andrew Morgan on 3/6/13.
+//  Created by Andrew GayLuigi Morgan on 3/6/13.
 //  Copyright (c) 2013 Andrew Morgan. All rights reserved.
 //
 
@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loginPressed:(UIButton *)sender {
+}
+
+- (IBAction)registerPressed:(UIButton *)sender {
+}
 @end
